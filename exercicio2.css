@@ -20,6 +20,7 @@ nav{
     padding-right: 30px;
     background-color: white;
     margin-right: 15px;
+    border: 2px solid rgba(255, 255, 255, 0);
 }
 
 .linhavermelha{
@@ -93,6 +94,7 @@ button{
     width: 50%;
     font-weight: 600;
     padding: 15px;
+    background: url(img/onda.svg);
 }
 
 .letreiro{
@@ -113,6 +115,8 @@ button{
     width: 70%;
     display: flex;
     align-items: baseline;
+    padding-left: 20px;
+    margin-top: 0px;
 }
 
 .icone{
@@ -131,4 +135,31 @@ footer{
 
 a{
     cursor: pointer;
+}
+
+.navitem:hover{
+    border: 2px solid red;
+}
+
+button:hover{
+    background-color: #900;
+}
+
+.vantagem:hover{
+    border-left: 3px solid red;
+    border-spacing: 5px;
+}
+
+.vantagemText p{
+    margin-top: -5px;
+}
+
+#par2{
+    margin-bottom: 30px;
+    background-color: #f7f7f7;
+}
+
+#par1{
+    margin-top: 30px;
+    background-color: #f7f7f7;
 }
