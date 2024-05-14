@@ -163,3 +163,40 @@ button:hover{
     margin-top: 30px;
     background-color: #f7f7f7;
 }
+
+@media only screen and (max-width: 600px) {
+    hr{
+        display: none;
+    }
+    section{
+        flex-direction: column;
+        width: 100vw;
+    }
+    .left1{
+        width: 100vw;
+        text-align: start;
+        align-items: flex-start;
+    }
+    .right1{
+        width: 100vw;
+    }
+    .left2{
+        width: 100vw;
+        text-align: center;
+    }
+    .letreiro{
+        font-size: 40px;
+    }
+    .right2{
+        width: 100vw;
+    }
+    nav{
+        width: 100vw;
+    }
+    .navitem{
+        font-size: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
